@@ -1,8 +1,8 @@
 {
   "id": "ta-dice-so-nice",
   "title": "Triangle Agency Dice So Nice",
-  "description": "",
-  "version": "1.3",
+  "description": "Dice Set for Triangle Agency, utilizing Dice So Nice!",
+  "version": "1.4",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
