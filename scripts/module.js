@@ -1,4 +1,4 @@
-import { DiceSystem } from '../dice-so-nice/api.js';
+import { DiceSystem } from '../../dice-so-nice/api.js';
 
 console.log("DSN Import Complete!")
 const mySystem = new DiceSystem("ta-dice", "Triangle Agency", "preferred", "Triangle Man");
