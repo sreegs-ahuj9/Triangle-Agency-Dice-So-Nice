@@ -1,25 +1,27 @@
 {
-  "id": "module",
-  "title": "New Module",
+  "id": "ta-dice-so-nice",
+  "title": "Triangle Agency Dice So Nice",
   "description": "",
-  "version": "#{VERSION}#",
+  "version": "1.0",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": 12,
+    "verified": 12,
+    "maximum": 12
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "sreegs",
+      "url": "https://github.com/sreegs-ahuj9/Triangle-Agency-Dice-So-Nice"
     }
   ],
   "relationships": {
-    "systems": [],
-    "requires": []
+    "requires": [{
+      "id": "dice-so-nice",
+      "type": "module",
+      "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json"
+      }]
   },
   "esmodules": [
     "scripts/module.js"
@@ -37,9 +39,9 @@
       "path": "languages/en.json"
     }
   ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
+  "url": "",
+  "manifest": "https://raw.githubusercontent.com/sreegs-ahuj9/Triangle-Agency-Dice-So-Nice/refs/heads/main/module.json",
+  "download": "https://github.com/sreegs-ahuj9/Triangle-Agency-Dice-So-Nice",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
